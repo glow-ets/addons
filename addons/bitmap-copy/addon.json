@@ -31,7 +31,5 @@
   "enabledByDefault": true,
   "libraries": [
     "scratch-gui"
-  ],
-  "glowDefault": true,
-  "glowAdvanced": true
+  ]
 }

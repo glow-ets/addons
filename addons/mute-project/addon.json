@@ -26,7 +26,7 @@
   "dynamicEnable": true,
   "dynamicDisable": true,
   "versionAdded": "1.7.0",
-  "enabledByDefault": true,
+  "enabledByDefault": false,
   "tags": [
     "player",
     "recommended"
@@ -37,6 +37,5 @@
   "libraries": [
     "scratch-gui"
   ],
-  "glowDefault": false,
   "glowAdvanced": true
 }

@@ -45,7 +45,6 @@
     "temporaryNotice": "There's now a keybind to pause projects.",
     "isMajor": false
   },
-  "enabledByDefault": true,
-  "glowDefault": false,
+  "enabledByDefault": false,
   "glowAdvanced": true
 }

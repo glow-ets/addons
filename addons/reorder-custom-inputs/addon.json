@@ -52,7 +52,5 @@
   "dynamicDisable": true,
   "libraries": [
     "scratch-blocks"
-  ],
-  "glowDefault": true,
-  "glowAdvanced": true
+  ]
 }

@@ -36,7 +36,6 @@
     "costumeEditor",
     "recommended"
   ],
-  "enabledByDefault": true,
-  "glowDefault": false,
+  "enabledByDefault": false,
   "glowAdvanced": true
 }

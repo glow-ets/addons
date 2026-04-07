@@ -81,7 +81,5 @@
   },
   "libraries": [
     "scratch-blocks"
-  ],
-  "glowDefault": false,
-  "glowAdvanced": true
+  ]
 }

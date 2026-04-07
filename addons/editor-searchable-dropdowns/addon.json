@@ -35,7 +35,5 @@
   "enabledByDefaultMobile": false,
   "libraries": [
     "scratch-blocks"
-  ],
-  "glowDefault": true,
-  "glowAdvanced": true
+  ]
 }

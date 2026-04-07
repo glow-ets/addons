@@ -46,8 +46,7 @@
   ],
   "dynamicDisable": true,
   "dynamicEnable": true,
-  "enabledByDefault": true,
+  "enabledByDefault": false,
   "versionAdded": "1.20.0",
-  "glowDefault": false,
   "glowAdvanced": true
 }

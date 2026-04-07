@@ -37,7 +37,5 @@
   "libraries": [
     "tinycolor2"
   ],
-  "enabledByDefault": true,
-  "glowDefault": true,
-  "glowAdvanced": true
+  "enabledByDefault": true
 }

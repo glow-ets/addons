@@ -31,7 +31,5 @@
   ],
   "versionAdded": "1.35.0",
   "dynamicEnable": true,
-  "dynamicDisable": true,
-  "glowDefault": true,
-  "glowAdvanced": true
+  "dynamicDisable": true
 }

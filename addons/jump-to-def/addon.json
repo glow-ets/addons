@@ -26,7 +26,5 @@
   ],
   "enabledByDefault": true,
   "dynamicEnable": true,
-  "dynamicDisable": true,
-  "glowDefault": true,
-  "glowAdvanced": true
+  "dynamicDisable": true
 }

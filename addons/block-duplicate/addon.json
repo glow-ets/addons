@@ -33,7 +33,6 @@
   "relatedAddons": [
     "block-cherry-picking"
   ],
-  "enabledByDefault": true,
-  "glowDefault": false,
+  "enabledByDefault": false,
   "glowAdvanced": true
 }

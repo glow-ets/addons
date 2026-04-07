@@ -34,7 +34,5 @@
   "relatedAddons": [
     "hide-delete-button",
     "confirm-actions"
-  ],
-  "glowDefault": false,
-  "glowAdvanced": false
+  ]
 }
