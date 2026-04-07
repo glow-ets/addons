@@ -21,7 +21,9 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "settings": [
@@ -34,10 +36,18 @@
       "default": false
     }
   ],
-  "tags": ["editor", "codeEditor", "featured"],
-  "relatedAddons": ["block-duplicate"],
+  "tags": [
+    "editor",
+    "codeEditor",
+    "featured"
+  ],
+  "relatedAddons": [
+    "block-duplicate"
+  ],
   "dynamicDisable": true,
   "dynamicEnable": true,
   "enabledByDefault": true,
-  "versionAdded": "1.20.0"
+  "versionAdded": "1.20.0",
+  "glowDefault": false,
+  "glowAdvanced": true
 }

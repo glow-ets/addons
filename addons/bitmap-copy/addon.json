@@ -13,14 +13,25 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "dynamicEnable": true,
   "dynamicDisable": true,
   "versionAdded": "1.0.0",
-  "tags": ["editor", "costumeEditor"],
-  "permissions": ["clipboardWrite"],
+  "tags": [
+    "editor",
+    "costumeEditor"
+  ],
+  "permissions": [
+    "clipboardWrite"
+  ],
   "enabledByDefault": true,
-  "libraries": ["scratch-gui"]
+  "libraries": [
+    "scratch-gui"
+  ],
+  "glowDefault": true,
+  "glowAdvanced": true
 }

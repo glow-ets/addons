@@ -17,17 +17,27 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "userstyles": [
     {
       "url": "../../libraries/common/cs/blockly-menu-separators.css",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
-  "tags": ["editor", "codeEditor", "recommended"],
-  "relatedAddons": ["middle-click-popup"],
+  "tags": [
+    "editor",
+    "codeEditor",
+    "recommended"
+  ],
+  "relatedAddons": [
+    "middle-click-popup"
+  ],
   "settings": [
     {
       "dynamic": true,
@@ -99,7 +109,9 @@
       "type": "boolean",
       "default": true,
       "if": {
-        "addonEnabled": ["debugger"]
+        "addonEnabled": [
+          "debugger"
+        ]
       }
     },
     {
@@ -126,7 +138,9 @@
         }
       ],
       "if": {
-        "settings": { "customargs": true }
+        "settings": {
+          "customargs": true
+        }
       }
     },
     {
@@ -137,5 +151,7 @@
       "default": true
     }
   ],
-  "enabledByDefault": true
+  "enabledByDefault": true,
+  "glowDefault": false,
+  "glowAdvanced": true
 }

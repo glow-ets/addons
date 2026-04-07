@@ -1,18 +1,28 @@
 {
   "name": "Project video recorder",
   "description": "Adds a \"record\" button to the editor menu bar that allows you to record the project's stage.",
-  "tags": ["editor", "editorMenuBar", "recommended"],
-  "relatedAddons": ["blocks2image"],
+  "tags": [
+    "editor",
+    "editorMenuBar",
+    "recommended"
+  ],
+  "relatedAddons": [
+    "blocks2image"
+  ],
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "userstyles": [
     {
       "url": "style.css",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "latestUpdate": {
@@ -20,5 +30,7 @@
     "temporaryNotice": "The maximum recording time has been increased to 10 minutes (600 seconds)."
   },
   "versionAdded": "1.6.0",
-  "enabledByDefault": true
+  "enabledByDefault": true,
+  "glowDefault": true,
+  "glowAdvanced": true
 }

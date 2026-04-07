@@ -2,7 +2,11 @@
   "editorOnly": true,
   "name": "Hex color picker",
   "description": "Adds hex code inputs to color pickers.",
-  "tags": ["editor", "costumeEditor", "recommended"],
+  "tags": [
+    "editor",
+    "costumeEditor",
+    "recommended"
+  ],
   "credits": [
     {
       "name": "Richie Bendall"
@@ -14,18 +18,26 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "userstyles": [
     {
       "url": "style.css",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "dynamicEnable": true,
   "dynamicDisable": true,
   "versionAdded": "1.6.0",
-  "libraries": ["tinycolor2"],
-  "enabledByDefault": true
+  "libraries": [
+    "tinycolor2"
+  ],
+  "enabledByDefault": true,
+  "glowDefault": true,
+  "glowAdvanced": true
 }

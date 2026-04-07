@@ -17,14 +17,26 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects", "projectEmbeds"]
+      "matches": [
+        "projects",
+        "projectEmbeds"
+      ]
     }
   ],
   "dynamicEnable": true,
   "dynamicDisable": true,
   "versionAdded": "1.7.0",
   "enabledByDefault": true,
-  "tags": ["player", "recommended"],
-  "relatedAddons": ["vol-slider"],
-  "libraries": ["scratch-gui"]
+  "tags": [
+    "player",
+    "recommended"
+  ],
+  "relatedAddons": [
+    "vol-slider"
+  ],
+  "libraries": [
+    "scratch-gui"
+  ],
+  "glowDefault": false,
+  "glowAdvanced": true
 }

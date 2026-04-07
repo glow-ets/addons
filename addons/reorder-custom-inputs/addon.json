@@ -12,14 +12,18 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"],
+      "matches": [
+        "projects"
+      ],
       "runAtComplete": true
     }
   ],
   "userstyles": [
     {
       "url": "arrows.css",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "settings": [
@@ -34,11 +38,21 @@
   "versionAdded": "1.36.0",
   "latestUpdate": {
     "version": "1.37.0",
-    "newSettings": ["InsertInputsAfter"]
+    "newSettings": [
+      "InsertInputsAfter"
+    ]
   },
-  "tags": ["editor", "codeEditor", "recommended"],
+  "tags": [
+    "editor",
+    "codeEditor",
+    "recommended"
+  ],
   "enabledByDefault": true,
   "dynamicEnable": true,
   "dynamicDisable": true,
-  "libraries": ["scratch-blocks"]
+  "libraries": [
+    "scratch-blocks"
+  ],
+  "glowDefault": true,
+  "glowAdvanced": true
 }

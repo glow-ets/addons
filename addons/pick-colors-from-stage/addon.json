@@ -9,20 +9,30 @@
       "name": "GarboMuffin"
     }
   ],
-  "tags": ["editor", "costumeEditor", "featured"],
+  "tags": [
+    "editor",
+    "costumeEditor",
+    "featured"
+  ],
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "userstyles": [
     {
       "url": "style.css",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "dynamicEnable": true,
   "dynamicDisable": true,
-  "versionAdded": "1.29.0"
+  "versionAdded": "1.29.0",
+  "glowDefault": true,
+  "glowAdvanced": true
 }

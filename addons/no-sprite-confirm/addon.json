@@ -10,18 +10,31 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "userstyles": [
     {
       "url": "hide.css",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "dynamicEnable": true,
   "dynamicDisable": true,
   "versionAdded": "1.40.0",
-  "tags": ["editor", "danger", "featured"],
-  "relatedAddons": ["hide-delete-button", "confirm-actions"]
+  "tags": [
+    "editor",
+    "danger",
+    "featured"
+  ],
+  "relatedAddons": [
+    "hide-delete-button",
+    "confirm-actions"
+  ],
+  "glowDefault": false,
+  "glowAdvanced": false
 }

@@ -16,14 +16,22 @@
       "link": "https://scratch.mit.edu/users/CST1229/"
     }
   ],
-  "tags": ["editor", "costumeEditor", "featured"],
+  "tags": [
+    "editor",
+    "costumeEditor",
+    "featured"
+  ],
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "versionAdded": "1.35.0",
   "dynamicEnable": true,
-  "dynamicDisable": true
+  "dynamicDisable": true,
+  "glowDefault": true,
+  "glowAdvanced": true
 }

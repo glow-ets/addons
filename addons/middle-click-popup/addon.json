@@ -19,19 +19,29 @@
       "link": "https://scratch.mit.edu/users/CST1229/"
     }
   ],
-  "tags": ["editor", "codeEditor", "recommended"],
-  "relatedAddons": ["block-switching"],
+  "tags": [
+    "editor",
+    "codeEditor",
+    "recommended"
+  ],
+  "relatedAddons": [
+    "block-switching"
+  ],
   "enabledByDefault": true,
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "userstyles": [
     {
       "url": "userstyle.css",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "settings": [
@@ -69,5 +79,9 @@
     "temporaryNotice": "This addon was completely reworked. You can now type inputs and reporters inside other blocks, and autocomplete using the Tab key.",
     "isMajor": true
   },
-  "libraries": ["scratch-blocks"]
+  "libraries": [
+    "scratch-blocks"
+  ],
+  "glowDefault": false,
+  "glowAdvanced": true
 }

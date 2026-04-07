@@ -10,13 +10,17 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "userstyles": [
     {
       "url": "style.css",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "settings": [
@@ -105,9 +109,17 @@
     }
   ],
   "versionAdded": "1.5.0",
-  "tags": ["editor", "costumeEditor", "recommended"],
+  "tags": [
+    "editor",
+    "costumeEditor",
+    "recommended"
+  ],
   "dynamicEnable": true,
   "dynamicDisable": true,
   "enabledByDefault": true,
-  "libraries": ["scratch-paint"]
+  "libraries": [
+    "scratch-paint"
+  ],
+  "glowDefault": false,
+  "glowAdvanced": true
 }

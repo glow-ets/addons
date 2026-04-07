@@ -17,13 +17,23 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects"]
+      "matches": [
+        "projects"
+      ]
     }
   ],
   "dynamicEnable": true,
   "dynamicDisable": true,
   "versionAdded": "1.21.0",
-  "tags": ["editor", "codeEditor", "featured"],
-  "relatedAddons": ["block-cherry-picking"],
-  "enabledByDefault": true
+  "tags": [
+    "editor",
+    "codeEditor",
+    "featured"
+  ],
+  "relatedAddons": [
+    "block-cherry-picking"
+  ],
+  "enabledByDefault": true,
+  "glowDefault": false,
+  "glowAdvanced": true
 }

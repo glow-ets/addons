@@ -21,20 +21,31 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["projects", "projectEmbeds"]
+      "matches": [
+        "projects",
+        "projectEmbeds"
+      ]
     }
   ],
   "userstyles": [
     {
       "url": "style.css",
-      "matches": ["projects", "projectEmbeds"]
+      "matches": [
+        "projects",
+        "projectEmbeds"
+      ]
     }
   ],
-  "tags": ["player", "recommended"],
+  "tags": [
+    "player",
+    "recommended"
+  ],
   "latestUpdate": {
     "version": "1.33.0",
     "temporaryNotice": "There's now a keybind to pause projects.",
     "isMajor": false
   },
-  "enabledByDefault": true
+  "enabledByDefault": true,
+  "glowDefault": false,
+  "glowAdvanced": true
 }
